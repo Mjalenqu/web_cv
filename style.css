@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-position: center; */
     color: white !important;
     font-family: 'Oswald', sans-serif !important;
 }
@@ -96,4 +97,10 @@ footer a:hover {
 
 .scroll-mid-r {
     margin-right: 40vw !important;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        background-position: center;
+    }
 }
